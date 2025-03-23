@@ -11,7 +11,7 @@ dbclient = pymongo.MongoClient(DB_URI)
 database = dbclient[DB_NAME]
 
 
-user_data = database['users']
+user_data = database['tgusersdb']
 
 
 
